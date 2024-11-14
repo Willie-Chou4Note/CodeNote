@@ -13,8 +13,10 @@ struct p
 
 int main()
 {
-    struct node *head = malloc(sizeof(struct node));
-    head->arr = malloc(sizeof(struct p)*5);
-    head->arr[2].data = 10;
+    int a = 10;
+    int b = 0x8F;
+    char c = 'a';
+    char s[10] = "Hello";
+    printf("DECint: %d, HEXint: 0x%x, char: %c, string: %s", a, b, c, s);
     return 0;
 }
