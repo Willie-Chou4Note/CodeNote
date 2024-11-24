@@ -31,7 +31,7 @@ void str_trim_lf (char* arr, int length) {
   }
 }
 
-void catch_ctrl_c_and_exit(int sig) { //set the ctrl+c as a signal to leave the chatroom
+void catch_ctrl_c_and_exit(int sig) { //set the ctrl+c => ETX as a signal to leave the chatroom
     flag = 1;
 }
 
